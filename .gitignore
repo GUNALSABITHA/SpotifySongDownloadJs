@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS / Editor junk files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / coverage
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Optional caches
+.cache/
+.next/
+.parcel-cache/
+.sass-cache/
+.terraform/
+
+# Temporary files
+tmp/
+temp/
+
+# Publicly generated downloads (if you store them)
+public/downloads/
+downloads/
+
+# Certificates / private keys
+*.pem
+*.crt
+*.key
+
+# EJS cache (if any)
+*.ejs~
+
+# Misc
+*.tgz

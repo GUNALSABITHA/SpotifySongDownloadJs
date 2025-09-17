@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tracks</title>
+</head>
+<body>
+  <h1>Tracks in Playlist</h1>
+  <ul>
+    <% tracks.forEach(function(t) { %>
+      <li><%= t %></li>
+    <% }); %>
+  </ul>
+  <a href="/playlists">Back to playlists</a>
+</body>
+</html>

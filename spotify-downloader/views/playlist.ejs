@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Playlists</title>
+</head>
+<body>
+  <h1>Choose a Playlist</h1>
+  <ul>
+    <% playlists.forEach(function(p) { %>
+      <li>
+        <a href="/tracks/<%= p.id %>"><%= p.name %></a>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
